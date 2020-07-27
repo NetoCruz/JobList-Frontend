@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+}
+
+.header{
+    background-image: url('../images/bg-header-desktop.svg');
+    background-size: cover;
+    height: 150px;
+    background-color: hsl(180, 29%, 50%);
+    border: 1px solid red;
+}
+
+.joblist{
+    margin: 0;
+    background-color: #F0FAFB;
+}
+.wrapper{
+    
+    padding: 100px;
+}
+.job{
+ border: 1px solid red;
+ display: flex;
+ justify-content: space-between;
+}
+
+.job img{
+border-radius: 50%;
+padding: 1.5em;
+} 
+
+
+.job-info{
+    display: flex;
+}
+
+.workinsihts{
+ display: flex;
+}
+
+.require{
+ display: flex;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
