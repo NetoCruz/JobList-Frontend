@@ -23,6 +23,7 @@ body{
  border: 1px solid red;
  display: flex;
  justify-content: space-between;
+ background-color: white;
 }
 
 .job img{
@@ -37,32 +38,43 @@ padding: 1.5em;
 
 .workinsihts{
  display: flex;
- justify-content: space-around;
- font-weight: bold;
  
+ font-weight: bold;
+ align-items: center;
+ font-size: 15px;
 }
-
+.ocupation{
+ font-size: 22px;
+ font-weight: 700;
+}
 .badge{
     background-color: hsl(180, 29%, 50%);
     border-radius: 11px;
-    padding: 3px;
+    padding: 5px;
     color: white;
-    font-size: 15px;
+    
 }
 
 .badge1{
     background-color: hsl(180, 14%, 20%);
     border-radius: 11px;
-    padding: 3px;
+    padding: 5px;
     color: white;
 }
 
 .require{
  display: flex;
+ color: rgb(170, 169, 169);
 }
 
 .skills{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+
+.skills p{
+    background-color:#F0FAFB;
 }
