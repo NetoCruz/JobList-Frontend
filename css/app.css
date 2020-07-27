@@ -37,6 +37,24 @@ padding: 1.5em;
 
 .workinsihts{
  display: flex;
+ justify-content: space-around;
+ font-weight: bold;
+ 
+}
+
+.badge{
+    background-color: hsl(180, 29%, 50%);
+    border-radius: 11px;
+    padding: 3px;
+    color: white;
+    font-size: 15px;
+}
+
+.badge1{
+    background-color: hsl(180, 14%, 20%);
+    border-radius: 11px;
+    padding: 3px;
+    color: white;
 }
 
 .require{
